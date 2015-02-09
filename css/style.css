@@ -108,6 +108,12 @@ header {
 .share-trip {
   margin-top: 30px;
   padding-bottom: 69px; }
+  @media (min-width: 320px) {
+    .share-trip {
+      padding-bottom: 155px; } }
+  @media (min-width: 768px) {
+    .share-trip {
+      padding-bottom: 69px; } }
   @media (min-width: 992px) {
     .share-trip .container {
       width: 750px; } }
@@ -261,6 +267,12 @@ header {
 
 .term {
   padding-bottom: 69px; }
+  @media (min-width: 320px) {
+    .term {
+      padding-bottom: 155px; } }
+  @media (min-width: 768px) {
+    .term {
+      padding-bottom: 69px; } }
   .term .box {
     padding: 15px 0 0 0;
     border-radius: 0; }

@@ -87,6 +87,8 @@ header { background: #694380; height: 66px; z-index:3; position: relative;
 //share trip
 .box { background: #fff; background: rgba(255,255,255,0.8); border-radius: 4px; padding: 20px 10px;}
 .share-trip { margin-top: 30px;  padding-bottom: 69px;
+  @include mobile { padding-bottom: 155px; }
+  @include tablet { padding-bottom: 69px; }
   .container {
     @include desktop { width: 750px; }
   }
@@ -161,6 +163,8 @@ header { background: #694380; height: 66px; z-index:3; position: relative;
 
 //term
 .term{ padding-bottom: 69px;
+  @include mobile { padding-bottom: 155px; }
+  @include tablet { padding-bottom: 69px; }
   .box { padding: 15px 0 0 0; border-radius:0;
     .title {
       h2 {
